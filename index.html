@@ -7,6 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css"
+      integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <div class="overlay"></div>
@@ -18,10 +32,13 @@
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
-          <li><a href="#">About me</a></li>
+          <li><a href="#about-me">About me</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
+      <div id="hamburger">
+        <i class="fa fa-bars fa-2x"></i>
+      </div>
     </header>
     <!-- Header ends -->
     <main id="container">
@@ -33,10 +50,13 @@
             <h3>I am a <span id="lang">Web Developer</span></h3>
           </div>
           <div class="btn">
-            <button class="downloadCV">View Portfolio</button>
+            <a href="#portfolio"
+              ><button class="downloadCV">View Portfolio</button></a
+            >
           </div>
         </article>
       </section>
+      <hr />
       <!-- Showcase ends -->
 
       <!-- About me -->
@@ -63,34 +83,71 @@
           </div>
         </article>
       </section>
+      <hr />
       <!-- About me ends -->
 
-      <!-- Tech Stack -->
-      <section id="tech-stack">
-        <h1>Tech Stack</h1>
-        <article class="stack">
-          <div class="img">
-            <img src="" alt="" />
-          </div>
-          <h3>Javascript</h3>
-        </article>
-        <article class="stack">
-          <div class="img">
-            <img src="" alt="" />
-          </div>
-          <h3>NodeJs</h3>
-        </article>
-        <article class="stack">
-          <div class="img">
-            <img src="" alt="" />
-          </div>
-          <h3>React</h3>
-        </article>
+      <!-- Portfolio  -->
+      <section id="portfolio">
+        <h1>Portfolio</h1>
+        <div class="line-cont">
+          <div class="line"></div>
+        </div>
+        <div id="stack-container">
+          <article class="stack">
+            <div class="img">
+              <img src="./assets/javascript.png" alt="" />
+            </div>
+            <h3>Bitcoin Converter</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              omnis, ad tempore ut nemo pariatur quibusdam at. Corporis laborum
+              delectus in optio, quidem deserunt minima soluta? Sapiente atque
+              suscipit doloremque.
+            </p>
+          </article>
+          <article class="stack">
+            <div class="img">
+              <img src="./assets/nodejs.png" alt="" />
+            </div>
+            <h3>Todo App</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              omnis, ad tempore ut nemo pariatur quibusdam at. Corporis laborum
+              delectus in optio, quidem deserunt minima soluta? Sapiente atque
+              suscipit doloremque.
+            </p>
+          </article>
+          <article class="stack">
+            <div class="img">
+              <img src="./assets/python3.jpg" alt="" />
+            </div>
+            <h3>Youtube Clone</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              omnis, ad tempore ut nemo pariatur quibusdam at. Corporis laborum
+            </p>
+          </article>
+          <article class="stack">
+            <div class="img">
+              <img src="./assets/javascript.png" alt="" />
+            </div>
+            <h3>PayPal Clone</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              omnis, ad tempore ut nemo pariatur quibusdam at. Corporis laborum
+            </p>
+          </article>
+        </div>
       </section>
       <!-- Tech Stack Ends -->
+      <hr />
 
       <!-- Contact -->
       <section id="contact">
+        <h1>Contact me</h1>
+        <div class="line-cont">
+          <div class="line"></div>
+        </div>
         <form action="" id="form">
           <div class="inputgroup">
             <input type="text" placeholder="Enter your name" />
@@ -103,22 +160,37 @@
 Enter your message </textarea
             >
           </div>
+          <button type="submit">Submit</button>
         </form>
       </section>
 
       <!-- Contact ends -->
+      <hr />
 
       <section id="profiles">
         <div id="linkedin">
-          <h3>linkdin</h3>
+          <i class="fa-brands fa-linkedin fa-3x"></i>
         </div>
-        <div id="linkedin">
-          <h3>facebook</h3>
+        <div id="facebook">
+          <i class="fa-brands fa-facebook fa-3x"></i>
         </div>
-        <div id="linkedin">
-          <h3>twitter</h3>
+        <div id="twitter">
+          <i class="fa-brands fa-twitter fa-3x"></i>
         </div>
       </section>
     </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/brands.min.js"
+      integrity="sha512-rbApvPERCHI8cOpTOKfMLVJNlXSCs4QRu8UsJ0HieeHyNKkHtUIQTZq3hv0pT7X0SUsLrRGEUsMTTpzwpdeIuw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+      integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
   </body>
 </html>

@@ -1,0 +1,50 @@
+#contact {
+  margin-block: 5rem;
+  h1 {
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 0.3rem;
+  }
+  .line-cont {
+    margin-left: 430px;
+    margin-bottom: 2rem;
+
+    .line {
+      background-color: red;
+      width: 3rem;
+      height: 5px;
+      border-radius: 0.2rem;
+    }
+  }
+  form {
+    width: 100%;
+    padding: 1rem;
+    .inputgroup {
+      width: 100%;
+      margin: 1rem;
+      input {
+        width: 100%;
+        padding: 1rem;
+        outline-color: red;
+        border-radius: 0.5rem;
+      }
+    }
+    button {
+      background-color: red;
+      padding: 1rem;
+      width: 30%;
+      border-radius: 0.5rem;
+      border: none;
+      color: #fff;
+      font-size: 1.2rem;
+      margin-inline: 1rem;
+    }
+    textarea {
+      outline-color: red;
+      border-radius: 0.5rem;
+      margin: 1rem;
+      width: 100%;
+      padding: 1rem;
+    }
+  }
+}

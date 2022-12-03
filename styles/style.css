@@ -31,6 +31,12 @@ body {
   z-index: -1;
 }
 
+hr {
+  background-color: #323232;
+  border: none;
+  height: 0.01rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -38,7 +44,7 @@ header {
   padding: 3rem 1.5rem;
 }
 header #logo h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 header nav ul {
   list-style: none;
@@ -91,6 +97,9 @@ header nav ul {
   font-size: 1.2rem;
 }
 
+#about-me {
+  margin: 10rem auto;
+}
 #about-me h3 {
   font-size: 3.5em;
   text-align: center;
@@ -134,6 +143,7 @@ header nav ul {
 #about-me #words .word .buttons button {
   background-color: red;
   padding: 1em;
+  border: none;
   width: 30%;
   border-radius: 0.5rem;
   color: #fff;
@@ -142,6 +152,116 @@ header nav ul {
 #about-me #words .word .buttons .downloadCV {
   background: transparent;
   border: 2px solid red;
+}
+
+#portfolio {
+  margin-block: 5rem;
+}
+#portfolio h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+#portfolio .line-cont {
+  margin-left: 430px;
+  margin-bottom: 2rem;
+}
+#portfolio .line-cont .line {
+  background-color: red;
+  width: 3rem;
+  height: 5px;
+  border-radius: 0.2rem;
+}
+
+#stack-container {
+  margin-block: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+}
+#stack-container .stack {
+  background-color: #323232;
+  width: 200px;
+  border-radius: 0.5rem;
+}
+#stack-container .stack .img {
+  border-radius: 0.5rem;
+}
+#stack-container .stack .img img {
+  border-radius: 0.5rem;
+  width: 100%;
+}
+#stack-container .stack .img img::after {
+  content: "Holla";
+}
+#stack-container .stack h3 {
+  padding: 0.5rem;
+}
+#stack-container .stack p {
+  padding: 0.5rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+#contact {
+  margin-block: 5rem;
+}
+#contact h1 {
+  font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+#contact .line-cont {
+  margin-left: 430px;
+  margin-bottom: 2rem;
+}
+#contact .line-cont .line {
+  background-color: red;
+  width: 3rem;
+  height: 5px;
+  border-radius: 0.2rem;
+}
+#contact form {
+  width: 100%;
+  padding: 1rem;
+}
+#contact form .inputgroup {
+  width: 100%;
+  margin: 1rem;
+}
+#contact form .inputgroup input {
+  width: 100%;
+  padding: 1rem;
+  outline-color: red;
+  border-radius: 0.5rem;
+}
+#contact form button {
+  background-color: red;
+  padding: 1rem;
+  width: 30%;
+  border-radius: 0.5rem;
+  border: none;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-inline: 1rem;
+}
+#contact form textarea {
+  outline-color: red;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+#profiles {
+  margin-block: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 
 a {
