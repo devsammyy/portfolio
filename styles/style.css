@@ -1,0 +1,150 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::before,
+*::after,
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "roboto";
+  background-color: #040400;
+  color: #ffffff;
+  overflow-x: hidden;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  top: -30%;
+  background-color: rgba(50, 50, 50, 0.1);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 50%;
+  padding: 50rem;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 1.5rem;
+}
+header #logo h1 {
+  font-size: 2.5rem;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.4rem;
+}
+
+#container {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  -webkit-margin-after: 2rem;
+          margin-block-end: 2rem;
+  height: 80vh;
+}
+
+#foreword {
+  line-height: 1.5;
+  text-align: center;
+}
+#foreword h1 {
+  font-size: 4em;
+}
+#foreword h1 #welcome {
+  color: red;
+}
+#foreword .programs {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+#foreword .programs h3 {
+  font-size: 3em;
+}
+#foreword .btn button {
+  background-color: red;
+  padding: 1.5em;
+  width: 30%;
+  border: none;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#about-me h3 {
+  font-size: 3.5em;
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+#about-me .line-cont {
+  margin-left: 430px;
+  margin-bottom: 2rem;
+}
+#about-me .line-cont .line {
+  background-color: red;
+  width: 3rem;
+  height: 5px;
+  border-radius: 0.2rem;
+}
+#about-me #words {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#about-me #words .image {
+  width: 100%;
+}
+#about-me #words .image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+#about-me #words .word {
+  padding: 0.5rem;
+  line-height: 2;
+}
+#about-me #words .word .buttons {
+  margin-top: 2rem;
+}
+#about-me #words .word .buttons button {
+  background-color: red;
+  padding: 1em;
+  width: 30%;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+#about-me #words .word .buttons .downloadCV {
+  background: transparent;
+  border: 2px solid red;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+#about-me {
+  //   margin-top: 10rem;
+  h3 {
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 0.3rem;
+  }
+  .line-cont {
+    margin-left: 430px;
+    margin-bottom: 2rem;
+
+    .line {
+      background-color: red;
+      width: 3rem;
+      height: 5px;
+      border-radius: 0.2rem;
+    }
+    // text-align: center;
+  }
+
+  #words {
+    display: flex;
+    // gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .image {
+      width: 100%;
+      img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+    }
+    .word {
+      padding: 0.5rem;
+      line-height: 2;
+
+      .buttons {
+        margin-top: 2rem;
+        button {
+          background-color: red;
+          padding: 1em;
+          width: 30%;
+          border-radius: 0.5rem;
+          color: #fff;
+          font-size: 1.2rem;
+        }
+        .downloadCV {
+          background: transparent;
+          border: 2px solid red;
+        }
+      }
+    }
+  }
+}

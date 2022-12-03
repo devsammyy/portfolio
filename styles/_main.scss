@@ -1,0 +1,46 @@
+#container {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#showcase {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-block-end: 2rem;
+  height: 80vh;
+  // position: relative;
+
+  // z-index: 1;
+}
+
+#foreword {
+  line-height: 1.5;
+  text-align: center;
+
+  h1 {
+    font-size: 4em;
+    #welcome {
+      color: red;
+    }
+  }
+  .programs {
+    line-height: 1.8;
+    h3 {
+      font-size: 3em;
+    }
+    margin-bottom: 1rem;
+  }
+  .btn button {
+    background-color: red;
+    padding: 1.5em;
+    width: 30%;
+    border: none;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+}
