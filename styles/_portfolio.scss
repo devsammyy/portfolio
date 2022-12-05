@@ -5,17 +5,6 @@
     text-align: center;
     padding-bottom: 0.3rem;
   }
-  .line-cont {
-    margin-left: 430px;
-    margin-bottom: 2rem;
-
-    .line {
-      background-color: red;
-      width: 3rem;
-      height: 5px;
-      border-radius: 0.2rem;
-    }
-  }
 }
 
 #stack-container {
@@ -49,6 +38,17 @@
       font-weight: 300;
       font-size: 0.8rem;
       line-height: 1.5;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #stack-container {
+    flex-direction: column;
+    margin-block: 1.8rem;
+
+    .stack {
+      width: 300px;
     }
   }
 }

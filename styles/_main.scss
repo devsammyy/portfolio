@@ -1,7 +1,6 @@
 #container {
   overflow: hidden;
-  width: 90%;
-  margin: 0 auto;
+  width: 100%;
 }
 
 #showcase {
@@ -10,11 +9,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-block-end: 2rem;
-  height: 80vh;
-  // position: relative;
-
-  // z-index: 1;
+  height: 90vh;
 }
 
 #foreword {
@@ -32,15 +27,21 @@
     h3 {
       font-size: 3em;
     }
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
   }
   .btn button {
     background-color: red;
-    padding: 1.5em;
-    width: 30%;
+    padding: 1.2em;
+    width: 50%;
     border: none;
     border-radius: 0.5rem;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #showcase {
+    height: 80vh;
   }
 }
