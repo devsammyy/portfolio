@@ -47,27 +47,29 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: clamp(375px, 550px, 768px)) {
   #about-me {
     width: 80%;
     #words {
       flex-direction: column;
-      width: 100%;
       text-align: center;
       align-items: center;
       justify-content: center;
       line-height: 10.5;
-    }
-    .word {
-      .buttons {
-        display: flex;
-        // flex-direction: column;
-        gap: 0.5rem;
-        font-size: 0.9rem;
-        padding: 0.9rem;
-      }
-      p {
-        padding: 1.5rem;
+      .word {
+        .buttons {
+          display: flex;
+          // flex-direction: column;
+          gap: 0.5rem;
+          button {
+            font-size: 1rem;
+            padding: 1rem;
+            width: 150px;
+          }
+        }
+        p {
+          // padding: .rem;
+        }
       }
     }
   }

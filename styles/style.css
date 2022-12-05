@@ -102,6 +102,10 @@ header #hamburger {
 @media only screen and (max-width: 550px) {
   #showcase {
     height: 80vh;
+    font-size: 0.6rem;
+  }
+  #foreword .btn button {
+    font-size: 1rem;
   }
 }
 #about-me {
@@ -157,20 +161,19 @@ header #hamburger {
   }
   #about-me #words {
     flex-direction: column;
-    width: 100%;
     text-align: center;
     align-items: center;
     justify-content: center;
     line-height: 10.5;
   }
-  #about-me .word .buttons {
+  #about-me #words .word .buttons {
     display: flex;
     gap: 0.5rem;
-    font-size: 0.9rem;
-    padding: 0.9rem;
   }
-  #about-me .word p {
-    padding: 1.5rem;
+  #about-me #words .word .buttons button {
+    font-size: 1rem;
+    padding: 1rem;
+    width: 150px;
   }
 }
 #portfolio {

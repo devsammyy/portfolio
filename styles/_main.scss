@@ -40,8 +40,14 @@
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: clamp(375px, 550px, 768px)) {
   #showcase {
     height: 80vh;
+    font-size: 0.6rem;
+  }
+  #foreword {
+    .btn button {
+      font-size: 1rem;
+    }
   }
 }
