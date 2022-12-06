@@ -242,6 +242,7 @@ header #hamburger {
   margin: 1rem auto;
   -webkit-padding-end: 2rem;
           padding-inline-end: 2rem;
+  width: 90%;
 }
 #contact form .inputgroup {
   width: 100%;
@@ -256,7 +257,7 @@ header #hamburger {
 #contact form button {
   background-color: red;
   padding: 1rem;
-  width: 30%;
+  width: 50%;
   border-radius: 0.5rem;
   border: none;
   color: #fff;
