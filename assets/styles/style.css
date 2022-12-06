@@ -196,8 +196,8 @@ header #hamburger {
 #services-container {
   margin-block: 5rem;
   display: flex;
-  justify-content: space-around;
-  gap: 8rem;
+  justify-content: center;
+  gap: 5rem;
   align-items: center;
 }
 #services-container .service {
