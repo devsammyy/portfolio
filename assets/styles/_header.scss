@@ -58,6 +58,12 @@ header {
       margin-block-end: 1.5rem;
       z-index: 1;
     }
+    #light-mode {
+      position: absolute;
+      top: 2.5rem;
+      right: 100px;
+      cursor: pointer;
+    }
   }
 
   body {

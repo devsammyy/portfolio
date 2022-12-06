@@ -25,6 +25,16 @@ body {
   transition: all ease 0.5s;
 }
 
+*.light {
+  background-color: $light;
+  color: $body-bg;
+}
+
+.dark {
+  background-color: $body-bg;
+  color: $light;
+}
+
 #site-container {
   overflow: hidden;
 }
@@ -72,6 +82,9 @@ hr {
   height: 0.01rem;
 }
 
+.a {
+  color: $body-bg !important;
+}
 a {
   text-decoration: none;
   color: $light;

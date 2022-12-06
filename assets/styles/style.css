@@ -60,6 +60,12 @@ header #hamburger {
             margin-block-end: 1.5rem;
     z-index: 1;
   }
+  header #light-mode {
+    position: absolute;
+    top: 2.5rem;
+    right: 100px;
+    cursor: pointer;
+  }
   body {
     font-size: 75%;
     line-height: 1.5;
@@ -314,7 +320,7 @@ header #hamburger {
   padding: 1.2rem;
   outline-color: #ff0000;
   border-radius: 0.5rem;
-  border: none;
+  border: 1px solid black;
   font-size: 18px;
 }
 #contact form .inputgroup #message {
@@ -359,6 +365,16 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   transition: all ease 0.5s;
+}
+
+*.light {
+  background-color: #ffffff;
+  color: #02020c;
+}
+
+.dark {
+  background-color: #02020c;
+  color: #ffffff;
 }
 
 #site-container {
@@ -406,6 +422,10 @@ hr {
   background-color: #141414;
   border: none;
   height: 0.01rem;
+}
+
+.a {
+  color: #02020c !important;
 }
 
 a {
