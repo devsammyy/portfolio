@@ -15,10 +15,12 @@ export default function type() {
     }
 
     currentText = words[count];
-    letter = currentText.slice(0, ++index);
+    letter = currentText.slice(0, index++)
+
 
     document.querySelector("#lang").textContent = letter;
-    if (letter.length === currentText.length) {
+
+    if (currentText.length === letter.length) {
         count++;
         index = 0;
     }

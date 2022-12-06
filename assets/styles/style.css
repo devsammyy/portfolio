@@ -79,12 +79,10 @@ header #hamburger {
 #foreword {
   line-height: 1.5;
   text-align: center;
+  width: 100%;
 }
 #foreword h1 {
   font-size: 4em;
-}
-#foreword h1 #welcome {
-  color: red;
 }
 #foreword .programs {
   line-height: 1.8;
@@ -106,10 +104,12 @@ header #hamburger {
 @media only screen and (max-width: 550px) {
   #showcase {
     height: 80vh;
-    font-size: 0.6rem;
   }
   #foreword .btn button {
     font-size: 1rem;
+  }
+  #foreword .programs {
+    font-size: 0.5rem;
   }
 }
 #about-me {
@@ -122,9 +122,10 @@ header #hamburger {
 }
 #about-me #words {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 }
 #about-me #words .image {
   width: 100%;
@@ -294,6 +295,39 @@ body {
   overflow: hidden;
 }
 
+#lang {
+  position: relative;
+  color: red;
+}
+
+#lang::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  border-right: 2px solid #ffffff;
+  width: 1px;
+  height: 90%;
+  -webkit-animation: blink 0.5s infinite linear;
+          animation: blink 0.5s infinite linear;
+}
+
+@-webkit-keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 .slide {
   right: 0;
 }

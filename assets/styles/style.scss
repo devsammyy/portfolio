@@ -25,6 +25,30 @@ body {
 #site-container {
   overflow: hidden;
 }
+
+#lang {
+  position: relative;
+  color: red;
+}
+#lang::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  border-right: 2px solid #ffffff;
+  width: 1px;
+  height: 90%;
+  animation: blink 0.5s infinite linear;
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .slide {
   right: 0;
 }

@@ -8,10 +8,11 @@
 
   #words {
     display: flex;
-    // gap: 1rem;
-    justify-content: center;
+
+    justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
 
     .image {
       width: 100%;
