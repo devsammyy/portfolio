@@ -1,0 +1,60 @@
+#services {
+  margin-block: 5rem;
+  h1 {
+    font-size: 3.5em;
+    text-align: center;
+    padding-bottom: 0.3rem;
+  }
+}
+
+#services-container {
+  margin-block: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  align-items: center;
+
+  .service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    background-color: #323232;
+    border-radius: 50%;
+    padding: 5rem;
+    // border-radius: 0.5rem;
+    &:hover {
+      background-color: red;
+      cursor: pointer;
+      transition: background-color ease 0.5s;
+    }
+
+    .service-icon {
+    }
+    h3 {
+      padding: 0.5rem;
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    p {
+      padding: 0.5rem;
+      font-weight: 300;
+      font-size: 0.8rem;
+      line-height: 1.5;
+    }
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  #services-container {
+    flex-wrap: wrap;
+    margin-block: 1.8rem;
+
+    .service {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
