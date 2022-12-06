@@ -4,16 +4,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 body {
   font-family: "roboto";
   background-color: #02020c;
   color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
   font-size: 90%;
-  position: relative;
 }
 
 .slide {
@@ -31,10 +29,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 1.5rem;
-  overflow: hidden;
 }
 header #logo h1 {
   font-size: 2rem;
+}
+header #logo h1 span {
+  color: red;
 }
 header nav ul {
   list-style: none;

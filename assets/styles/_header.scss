@@ -3,14 +3,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 1.5rem;
-  overflow: hidden;
 
   #logo {
     h1 {
       font-size: 2rem;
-      // background-color: linear-gradient(red, 2%, 5%);
       span {
-        // color: red;
+        color: red;
       }
     }
   }
