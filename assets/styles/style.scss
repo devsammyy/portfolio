@@ -1,24 +1,23 @@
-html {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 *::before,
 *::after,
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "roboto";
   background-color: #02020c;
   color: #ffffff;
-  overflow-x: clip;
+  overflow: hidden;
   font-size: 90%;
   position: relative;
+}
+
+.slide {
+  right: 0;
 }
 
 // .overlay {
