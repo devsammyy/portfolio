@@ -287,9 +287,6 @@ header #hamburger {
     width: 300px;
   }
 }
-#contact {
-  height: 100vh;
-}
 #contact h1 {
   font-size: 3.5em;
   text-align: center;
