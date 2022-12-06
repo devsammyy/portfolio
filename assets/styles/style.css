@@ -140,8 +140,8 @@ header #hamburger {
   width: 100%;
 }
 #about-me #words .image img {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   border-radius: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -176,9 +176,8 @@ header #hamburger {
   #about-me #words {
     flex-direction: column;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     line-height: 10.5;
+    width: 100%;
   }
   #about-me #words .word .buttons {
     display: flex;
