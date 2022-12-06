@@ -10,13 +10,14 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3rem 1.5rem;
+  padding: 2rem 1.5rem;
+  background-color: rgba(169, 169, 169, 0.1);
 }
 header #logo h1 {
   font-size: 2rem;
 }
 header #logo h1 span {
-  color: red;
+  color: #ff0000;
 }
 header nav ul {
   list-style: none;
@@ -31,9 +32,9 @@ header #hamburger {
 @media only screen and (max-width: 550px) {
   nav {
     position: absolute;
-    background-color: rgba(169, 169, 169, 0.2);
-    -webkit-backdrop-filter: blur(50px);
-            backdrop-filter: blur(50px);
+    background-color: rgba(169, 169, 169, 0.5);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
     top: 0;
     right: -100%;
     width: 100%;
@@ -94,12 +95,12 @@ header #hamburger {
   font-size: 3em;
 }
 #foreword .btn button {
-  background-color: red;
+  background-color: #ff0000;
   padding: 1.2em;
   width: 50%;
   border: none;
   border-radius: 0.5rem;
-  color: #fff;
+  color: #ffffff;
   font-size: 1.3rem;
 }
 
@@ -127,7 +128,7 @@ header #hamburger {
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 #about-me #words .image {
   width: 100%;
@@ -149,17 +150,17 @@ header #hamburger {
   margin-top: 2rem;
 }
 #about-me #words .word .buttons button {
-  background-color: red;
+  background-color: #ff0000;
   padding: 1em;
   border: none;
   width: 200px;
   border-radius: 0.5rem;
-  color: #fff;
+  color: #ffffff;
   font-size: 1.2rem;
 }
 #about-me #words .word .buttons .downloadCV {
   background: transparent;
-  border: 2px solid red;
+  border: 2px solid #ff0000;
 }
 
 @media only screen and (max-width: 550px) {
@@ -193,10 +194,10 @@ header #hamburger {
 }
 
 #services-container {
-  margin-block: 2.5rem;
+  margin-block: 5rem;
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 8rem;
   align-items: center;
 }
 #services-container .service {
@@ -211,7 +212,7 @@ header #hamburger {
   padding: 5rem;
 }
 #services-container .service:hover {
-  background-color: red;
+  background-color: #ff0000;
   cursor: pointer;
   transition: background-color ease 0.5s;
 }
@@ -231,6 +232,7 @@ header #hamburger {
   #services-container {
     flex-wrap: wrap;
     margin-block: 1.8rem;
+    gap: 2rem;
   }
   #services-container .service {
     width: 150px;
@@ -302,14 +304,28 @@ header #hamburger {
   width: 100%;
   margin: 1rem;
 }
+#contact form .inputgroup label {
+  line-height: 2;
+  font-size: 1.5rem;
+}
 #contact form .inputgroup input {
   width: 100%;
-  padding: 1rem;
-  outline-color: red;
+  padding: 1.2rem;
+  outline-color: #ff0000;
   border-radius: 0.5rem;
+  border: none;
+  font-size: 18px;
+}
+#contact form .inputgroup #message {
+  outline-color: #ff0000;
+  border-radius: 0.5rem;
+  width: 100%;
+  padding: 1.2rem;
+  font-family: "Roboto";
+  font-size: 18px;
 }
 #contact form button {
-  background-color: red;
+  background-color: #ff0000;
   padding: 1rem;
   width: 100%;
   border-radius: 0.5rem;
@@ -317,13 +333,6 @@ header #hamburger {
   color: #fff;
   font-size: 1.2rem;
   margin-inline: 1rem;
-}
-#contact form textarea {
-  outline-color: red;
-  border-radius: 0.5rem;
-  margin: 1rem;
-  width: 100%;
-  padding: 1rem;
 }
 
 #profiles {

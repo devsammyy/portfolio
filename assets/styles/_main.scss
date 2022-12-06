@@ -29,12 +29,12 @@
     margin-bottom: 0.8rem;
   }
   .btn button {
-    background-color: red;
+    background-color: $primary-color;
     padding: 1.2em;
     width: 50%;
     border: none;
     border-radius: 0.5rem;
-    color: #fff;
+    color: $light;
     font-size: 1.3rem;
   }
 }

@@ -12,15 +12,29 @@
     .inputgroup {
       width: 100%;
       margin: 1rem;
+      label {
+        line-height: 2;
+        font-size: 1.5rem;
+      }
       input {
         width: 100%;
-        padding: 1rem;
-        outline-color: red;
+        padding: 1.2rem;
+        outline-color: $primary-color;
         border-radius: 0.5rem;
+        border: none;
+        font-size: 18px;
+      }
+      #message {
+        outline-color: $primary-color;
+        border-radius: 0.5rem;
+        width: 100%;
+        padding: 1.2rem;
+        font-family: "Roboto";
+        font-size: 18px;
       }
     }
     button {
-      background-color: red;
+      background-color: $primary-color;
       padding: 1rem;
       width: 100%;
       border-radius: 0.5rem;
@@ -28,13 +42,6 @@
       color: #fff;
       font-size: 1.2rem;
       margin-inline: 1rem;
-    }
-    textarea {
-      outline-color: red;
-      border-radius: 0.5rem;
-      margin: 1rem;
-      width: 100%;
-      padding: 1rem;
     }
   }
 }

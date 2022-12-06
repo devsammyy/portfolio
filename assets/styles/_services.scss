@@ -8,10 +8,10 @@
 }
 
 #services-container {
-  margin-block: 2.5rem;
+  margin-block: 5rem;
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 8rem;
   align-items: center;
 
   .service {
@@ -21,12 +21,12 @@
     align-items: center;
     width: 180px;
     height: 180px;
-    background-color: #323232;
+    background-color: $secondary-bg;
     border-radius: 50%;
     padding: 5rem;
     // border-radius: 0.5rem;
     &:hover {
-      background-color: red;
+      background-color: $primary-color;
       cursor: pointer;
       transition: background-color ease 0.5s;
     }
@@ -51,6 +51,7 @@
   #services-container {
     flex-wrap: wrap;
     margin-block: 1.8rem;
+    gap: 2rem;
 
     .service {
       width: 150px;

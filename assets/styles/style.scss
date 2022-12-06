@@ -6,6 +6,7 @@
   padding: 0;
 }
 
+@import "customs";
 @import "header";
 @import "main";
 @import "about";
@@ -16,8 +17,8 @@
 
 body {
   font-family: "roboto";
-  background-color: #02020c;
-  color: #ffffff;
+  background-color: $body-bg;
+  color: $light;
   height: 100%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -73,5 +74,5 @@ hr {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: $light;
 }
