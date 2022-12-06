@@ -152,6 +152,9 @@ header #hamburger {
   padding: 0.5rem;
   line-height: 2;
 }
+#about-me #words .word p {
+  font-size: 30px;
+}
 #about-me #words .word .buttons {
   margin-top: 2rem;
 }
@@ -181,12 +184,16 @@ header #hamburger {
   }
   #about-me #words .word .buttons {
     display: flex;
+    justify-content: center;
     gap: 0.5rem;
   }
   #about-me #words .word .buttons button {
     font-size: 1rem;
     padding: 1rem;
     width: 150px;
+  }
+  #about-me #words .word p {
+    font-size: 18px;
   }
 }
 #services {

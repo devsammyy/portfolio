@@ -26,7 +26,9 @@
     .word {
       padding: 0.5rem;
       line-height: 2;
-
+      p {
+        font-size: 30px;
+      }
       .buttons {
         margin-top: 2rem;
         button {
@@ -58,6 +60,7 @@
       .word {
         .buttons {
           display: flex;
+          justify-content: center;
           // flex-direction: column;
           gap: 0.5rem;
           button {
@@ -65,6 +68,9 @@
             padding: 1rem;
             width: 150px;
           }
+        }
+        p {
+          font-size: 18px;
         }
       }
     }
