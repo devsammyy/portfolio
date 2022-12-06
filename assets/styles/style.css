@@ -131,17 +131,17 @@ header #hamburger {
 }
 #about-me #words {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  width: 80%;
-  margin: 5rem auto;
+  width: 100%;
+  margin: 4rem 0;
 }
 #about-me #words .image {
   width: 100%;
 }
 #about-me #words .image img {
-  width: 280px;
-  height: 280px;
+  width: 350px;
+  height: 350px;
   border-radius: 100%;
   -o-object-fit: cover;
      object-fit: cover;
