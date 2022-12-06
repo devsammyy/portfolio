@@ -6,14 +6,25 @@
   padding: 0;
 }
 
+@import "header";
+@import "main";
+@import "about";
+@import "portfolio";
+@import "contact";
+@import "profiles";
+
 body {
   font-family: "roboto";
   background-color: #02020c;
   color: #ffffff;
   overflow-x: hidden;
-  font-size: 90%;
+  scroll-behavior: smooth;
+  transition: all ease 0.5s;
 }
 
+#site-container {
+  overflow: hidden;
+}
 .slide {
   right: 0;
 }
@@ -33,13 +44,6 @@ hr {
   border: none;
   height: 0.01rem;
 }
-
-@import "header";
-@import "main";
-@import "about";
-@import "portfolio";
-@import "contact";
-@import "profiles";
 
 a {
   text-decoration: none;

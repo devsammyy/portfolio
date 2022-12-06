@@ -6,24 +6,6 @@
   padding: 0;
 }
 
-body {
-  font-family: "roboto";
-  background-color: #02020c;
-  color: #ffffff;
-  overflow-x: hidden;
-  font-size: 90%;
-}
-
-.slide {
-  right: 0;
-}
-
-hr {
-  background-color: #141414;
-  border: none;
-  height: 0.01rem;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -48,6 +30,7 @@ header #hamburger {
 
 @media only screen and (max-width: 550px) {
   nav {
+    position: absolute;
     background-color: rgba(169, 169, 169, 0.2);
     -webkit-backdrop-filter: blur(50px);
             backdrop-filter: blur(50px);
@@ -55,9 +38,7 @@ header #hamburger {
     right: -100%;
     width: 100%;
     height: 100vh;
-    position: absolute;
     transition: all 0.5s;
-    overflow-x: hidden;
   }
   nav ul {
     flex-direction: column;
@@ -65,6 +46,7 @@ header #hamburger {
     margin-top: 8rem;
   }
   header {
+    position: relative;
     padding: 1.5rem 0.9rem;
   }
   header #hamburger {
@@ -296,6 +278,29 @@ header #hamburger {
   justify-content: center;
   align-items: center;
   gap: 5rem;
+}
+
+body {
+  font-family: "roboto";
+  background-color: #02020c;
+  color: #ffffff;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: all ease 0.5s;
+}
+
+#site-container {
+  overflow: hidden;
+}
+
+.slide {
+  right: 0;
+}
+
+hr {
+  background-color: #141414;
+  border: none;
+  height: 0.01rem;
 }
 
 a {
