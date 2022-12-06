@@ -63,7 +63,7 @@ header #hamburger {
   header #light-mode {
     position: absolute;
     top: 2.5rem;
-    right: 100px;
+    right: 80px;
     cursor: pointer;
   }
   body {
@@ -140,8 +140,8 @@ header #hamburger {
   width: 100%;
 }
 #about-me #words .image img {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   border-radius: 100%;
   -o-object-fit: cover;
      object-fit: cover;
