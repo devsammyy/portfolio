@@ -20,6 +20,15 @@ header {
       display: flex;
       gap: 1.5rem;
       font-size: 1.5rem;
+      li {
+        a {
+          color: #fff;
+          &:hover {
+            color: $primary-color;
+            transition: all 0.5s ease;
+          }
+        }
+      }
     }
   }
 

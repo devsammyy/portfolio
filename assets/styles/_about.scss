@@ -39,10 +39,15 @@
           border-radius: 0.5rem;
           color: $light;
           font-size: 1.2rem;
+          cursor: pointer;
         }
         .downloadCV {
           background: transparent;
           border: 2px solid $primary-color;
+          &:hover {
+            background-color: $primary-color;
+            transition: background 0.2s ease-in-out;
+          }
         }
       }
     }

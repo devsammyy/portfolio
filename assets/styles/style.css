@@ -25,6 +25,13 @@ header nav ul {
   gap: 1.5rem;
   font-size: 1.5rem;
 }
+header nav ul li a {
+  color: #fff;
+}
+header nav ul li a:hover {
+  color: #ff0000;
+  transition: all 0.5s ease;
+}
 header #hamburger {
   display: none;
 }
@@ -166,10 +173,15 @@ header #hamburger {
   border-radius: 0.5rem;
   color: #ffffff;
   font-size: 1.2rem;
+  cursor: pointer;
 }
 #about-me #words .word .buttons .downloadCV {
   background: transparent;
   border: 2px solid #ff0000;
+}
+#about-me #words .word .buttons .downloadCV:hover {
+  background-color: #ff0000;
+  transition: background 0.2s ease-in-out;
 }
 
 @media only screen and (max-width: 550px) {
@@ -431,10 +443,10 @@ hr {
 }
 
 .a {
-  color: #02020c !important;
+  color: #000000 !important;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #ff0000;
 }/*# sourceMappingURL=style.css.map */

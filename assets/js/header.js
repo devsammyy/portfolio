@@ -16,7 +16,7 @@ export const modeToggle = () => {
   const body = document.body
 
   mode.addEventListener("click", () => {
-    a.forEach(x => x.classList.toggle('a'));
+    // a.forEach(x => x.classList.toggle('a'));
     button.classList.toggle('a');
     service.forEach(x => x.classList.toggle('dark'));
     stack.forEach(x => x.classList.toggle('dark'));
