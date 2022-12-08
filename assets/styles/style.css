@@ -283,6 +283,7 @@ header #hamburger {
 #stack-container .stack {
   background-color: #323232;
   width: 200px;
+  height: 350px;
   border-radius: 0.5rem;
 }
 #stack-container .stack .img {
@@ -291,6 +292,7 @@ header #hamburger {
 #stack-container .stack .img img {
   border-radius: 0.5rem;
   width: 100%;
+  height: 200px;
 }
 #stack-container .stack .img img::after {
   content: "Holla";
