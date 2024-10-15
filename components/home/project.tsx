@@ -8,10 +8,10 @@ interface IProps {}
 
 const Project: React.FC<IProps> = () => {
   return (
-    <section className="h-[100vh] w-full text-white mt-20 flex flex-col justify-start">
+    <section className="w-full text-white mt-20 flex flex-col justify-start">
       <SectionHeader heading="Browse my" title="Projects" />
 
-      <div className="flex justify-center gap-5 p-10  ">
+      <div className="flex flex-col md:flex justify-center gap-5 p-10  ">
         <div data-aos="slide-right">
           <ProjectCard
             name="Hausbetreuungstruckl"

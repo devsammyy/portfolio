@@ -45,26 +45,29 @@ const Profile = () => {
   }, []);
 
   return (
-    <section className="h-[100vh] my-16 flex flex-col gap-4 items-center md:flex-row md:gap-8 md:items-center md:justify-center">
+    <section className="w-full my-16 flex flex-col gap-4 items-center md:flex-row md:gap-8 md:items-center md:justify-center">
       <Image
         src={profpic}
         color="#fff"
-        className="w-[100px] h-[100px] md:w-[300px] md:h-[300px]"
+        className="w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px]"
         alt="Babatunde"
         data-aos="fade-up"
       />
       <div>
         <div className="text-white flex flex-col items-center gap-3">
           <h1
-            className="text-2xl md:text-5xl font-semibold"
+            className="text-2xl md:text-4xl font-semibold"
             data-aos="slide-left"
           >
             Babatunde Adebayo
           </h1>
-          <h2 className="text-md md:text-xl font-semibold" data-aos="slide-up">
+          <h2
+            className="text-xs md:text-md md:text-xl font-semibold"
+            data-aos="slide-up"
+          >
             Software Engineer | Full-Stack Developer
           </h2>
-          <h3 data-aos="slide-up" className="text-md md:text-xl font-semibold">
+          <h3 data-aos="slide-up" className="text-sm md:text-md font-semibold">
             I specialize in:
           </h3>
           <h3 className="text-xl md:text-2xl text-[#A9D518] font-semibold text-wrap">

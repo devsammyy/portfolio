@@ -1,12 +1,11 @@
 "use client";
-import React from "react";
-import Image from "next/image";
 import cleverlogo from "@/public/cleverlogo.svg";
+import Image from "next/image";
 import { MenuBurger, Sun } from "react-flaticons";
 
 const Header = () => {
   return (
-    <header className="px-4 w-full md:px-8 md:mx-auto top-0 z-10  md:fixed md:w-[90%] h-[14vh] md:h-[15vh] flex justify-between items-center bg-white/30 md:bg-white/30 backdrop-blur-sm md:rounded-lg shadow-lg md:border md:border-white/20 ">
+    <header className="w-[80%] md:w-[80%] md:px-8 md:mx-auto top-0 z-10  md:fixed md:h-[15vh] flex justify-between items-center bg-white/30 backdrop-blur-sm md:rounded-lg shadow-lg md:border md:border-white/20 ">
       <div id="logo">
         <Image
           src={cleverlogo}

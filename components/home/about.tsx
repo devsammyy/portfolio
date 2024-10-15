@@ -6,20 +6,18 @@ import SectionHeader from "./components/section-header";
 
 const About = () => {
   return (
-    <section className="h-[100vh] my-16 w-full ">
+    <section className=" my-16 w-full ">
       <SectionHeader heading="Get to know more" title="About me." />
-      <div className="flex gap-8 items-center p-16 justify-center">
+      <div className="flex flex-col md:flex-row gap-8 items-center p-16 justify-center">
         <Image
           src={profpic}
-          width={400}
-          height={400}
-          className="rounded-2xl"
+          className="w-[500px] h-[400px] rounded-2xl"
           alt="Clevertech"
           data-aos="slide-up"
         />
         <div className="flex w-50 flex-col">
           <div className="text-white flex flex-col  gap-3">
-            <div className="flex gap-5 ">
+            <div className="flex flex-col md:flex gap-5 ">
               <div
                 className="border-2 flex flex-1 flex-col justify-center items-center border-gray-600 w-[350px] shadow-lg p-[1.5rem] rounded-3xl font-semibold"
                 data-aos="slide-right"

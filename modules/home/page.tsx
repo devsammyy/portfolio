@@ -1,5 +1,6 @@
 "use client";
 import About from "@/components/home/about";
+import Contact from "@/components/home/contact";
 import Experience from "@/components/home/experience";
 import Profile from "@/components/home/profile";
 import Project from "@/components/home/project";
@@ -17,12 +18,13 @@ const HomePage = () => {
     });
   }, []);
   return (
-    <section className="flex flex-col items-center">
+    <section className="flex flex-col items-center ">
       <Header />
       <Profile />
       <About />
       <Experience />
       <Project />
+      <Contact />
     </section>
   );
 };
