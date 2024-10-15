@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/home/runner/work/devsammyy.github.io/devsammyy.github.io/app/layout":["static/media/eafabf029ad39a43-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
