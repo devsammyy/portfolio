@@ -11,7 +11,7 @@ const Project: React.FC<IProps> = () => {
     <section className="w-full text-white mt-20 flex flex-col justify-start">
       <SectionHeader heading="Browse my" title="Projects" />
 
-      <div className="flex flex-col md:flex justify-center gap-5 p-10  ">
+      <div className="flex flex-col px-4 items-center md:flex justify-center gap-5 ">
         <div data-aos="slide-right">
           <ProjectCard
             name="Hausbetreuungstruckl"

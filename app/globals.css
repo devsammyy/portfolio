@@ -5,11 +5,14 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 body {
   background-color: rgb(17 24 39);
+  overflow-x: hidden;
+}
 
+main {
   overflow-x: hidden;
 }

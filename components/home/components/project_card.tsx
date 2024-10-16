@@ -19,12 +19,14 @@ export const ProjectCard: React.FC<IProps> = ({
   description,
 }) => {
   return (
-    <div className="border-2 w-[300px] justify-center  items-center border-gray-600 shadow-lg rounded-2xl font-semibold">
-      <div className="w-full h-[300px]">
+    <div className="border-2 lg:w-[300px] justify-center  items-center border-gray-600 shadow-lg rounded-2xl font-semibold">
+      <div className="w-full h-[300px] relative">
         <Image
           src={imageSrc}
-          className="rounded-t-2xl object-center h-full w-full"
-          alt="Clevertech"
+          className="rounded-t-2xl object-cover"
+          alt={name}
+          layout="fill"
+          objectFit="cover"
         />
       </div>
       <div>

@@ -27,10 +27,10 @@ export const ExperienceCard: React.FC<IProps> = ({ title, exp }) => {
 
 export const ExperienceContainer: React.FC<{ title: string }> = ({ title }) => {
   return (
-    <div className="border-2  w-full items-center border-gray-600 shadow-lg p-[1.5rem] rounded-3xl font-semibold">
+    <div className="border-2 w-full border-gray-600 shadow-lg p-[1rem] rounded-xl font-semibold">
       <h1 className="text-xl mb-4 text-center">{title}</h1>
       {title === "Frontend Development" ? (
-        <div className=" flex-1 mx-auto  w-[95%]">
+        <div className="">
           <div className="flex ">
             <ExperienceCard title="HTML" exp="Experienced" />
             <ExperienceCard title="CSS" exp="Intermediate" />
@@ -49,7 +49,7 @@ export const ExperienceContainer: React.FC<{ title: string }> = ({ title }) => {
           </div>
         </div>
       ) : title === "Backend Development" ? (
-        <div className=" flex-1 mx-auto  w-[95%]">
+        <div className="">
           <div className="flex ">
             <ExperienceCard title="Nestjs" exp="Experienced" />
             <ExperienceCard title="Express" exp="Experienced" />
@@ -68,7 +68,7 @@ export const ExperienceContainer: React.FC<{ title: string }> = ({ title }) => {
           </div>
         </div>
       ) : title === "Mobile Development" ? (
-        <div className=" flex-1 mx-auto  w-[95%]">
+        <div className="">
           <div className="flex ">
             <ExperienceCard title="Flutter" exp="Experienced" />
             <ExperienceCard title="React Native" exp="Experienced" />

@@ -9,10 +9,13 @@ interface IProps {}
 
 const Contact: React.FC<IProps> = () => {
   return (
-    <section className="w-full text-white mt-72 flex flex-col justify-start">
+    <section
+      className="w-full text-white my-32 flex flex-col justify-start"
+      data-aos="slide-up"
+    >
       <SectionHeader heading="Get in Touch" title="Contact Me" />
 
-      <div className="flex justify-center gap-5 p-10">
+      <div className="flex justify-center gap-5 ">
         <div className="border-2 flex flex-col md:flex gap-4  p-5 md:justify-center  md:items-center border-gray-600 shadow-lg rounded-2xl font-semibold">
           <div className="email flex items-center gap-2">
             <Image
@@ -23,7 +26,7 @@ const Contact: React.FC<IProps> = () => {
               alt="Clevertech"
               data-aos="fade-in"
             />
-            <div className="" data-aos="slide-up">
+            <div className="">
               <Link
                 href="mailto:babatundeeaadebayo@gmail.com"
                 className="font-light text-sm md:text-md lg:text-lg"
@@ -41,7 +44,7 @@ const Contact: React.FC<IProps> = () => {
               alt="Clevertech"
               data-aos="fade-in"
             />
-            <div className="" data-aos="slide-up">
+            <div className="">
               <Link
                 href="https://www.linkedin.com/in/babatunde-adebayo-9b9466232/"
                 className="font-light text-sm md:text-md lg:text-lg"

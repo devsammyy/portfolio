@@ -8,18 +8,21 @@ const About = () => {
   return (
     <section className=" my-16 w-full ">
       <SectionHeader heading="Get to know more" title="About me." />
-      <div className="flex flex-col md:flex-row gap-8 items-center p-16 justify-center">
-        <Image
-          src={profpic}
-          className="w-[500px] h-[400px] rounded-2xl"
-          alt="Clevertech"
-          data-aos="slide-up"
-        />
-        <div className="flex w-50 flex-col">
+      <div className="flex flex-col gap-y-5 md:flex-row md:gap-8 items-center md:p-16 justify-center">
+        <div className="img w-[400px] md:w-[500px] ">
+          <Image
+            src={profpic}
+            className=" rounded-2xl"
+            alt="Clevertech"
+            data-aos="slide-up"
+          />
+        </div>
+
+        <div className="flex flex-col lg:flex-row">
           <div className="text-white flex flex-col  gap-3">
-            <div className="flex flex-col md:flex gap-5 ">
+            <div className="flex flex-col md:flex gap-5 gap-y-5 p-2 ">
               <div
-                className="border-2 flex flex-1 flex-col justify-center items-center border-gray-600 w-[350px] shadow-lg p-[1.5rem] rounded-3xl font-semibold"
+                className="border-2 flex flex-col gap justify-center items-center border-gray-600 shadow-lg p-[1.5rem] rounded-3xl font-semibold"
                 data-aos="slide-right"
               >
                 <Image
@@ -54,7 +57,7 @@ const About = () => {
               </div>
 
               <div
-                className="border-2 flex flex-1 w-[350px] flex-col justify-center items-center border-gray-600 shadow-lg p-[1.5rem] py-5 rounded-3xl font-semibold"
+                className="border-2 flex flex-col justify-center items-center border-gray-600 shadow-lg p-[1.5rem] py-5 rounded-3xl font-semibold"
                 data-aos="slide-left"
               >
                 <Image
@@ -90,7 +93,7 @@ const About = () => {
             </div>
             <div className="">
               <p
-                className="text-sm leading-9 text-justify font-semibold"
+                className="text-sm p-4 leading-9  text-justify font-semibold"
                 data-aos="fade-up"
               >
                 As a passionate and dedicated Software Engineer, I am committed

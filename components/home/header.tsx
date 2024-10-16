@@ -3,20 +3,23 @@ import cleverlogo from "@/public/cleverlogo.svg";
 import Image from "next/image";
 import { MenuBurger, Sun } from "react-flaticons";
 
+// w-[80%] mx-0 md:w-[80%] md:px-8 md:mx-auto top-0 z-10  md:fixed md:h-[15vh]
+
 const Header = () => {
   return (
-    <header className="w-[80%] md:w-[80%] md:px-8 md:mx-auto top-0 z-10  md:fixed md:h-[15vh] flex justify-between items-center bg-white/30 backdrop-blur-sm md:rounded-lg shadow-lg md:border md:border-white/20 ">
-      <div id="logo">
+    <header className=" p-4 w-full flex justify-between items-center bg-white/30 backdrop-blur-sm md:rounded-lg shadow-lg md:border md:border-white/20 ">
+      <div className="ml-3">
         <Image
           src={cleverlogo}
           color="#fff"
           width={200}
           height={200}
+          className="invert"
           alt="Clevertech"
         />
       </div>
-      <section className="flex md:gap-20 items-center">
-        <nav className="md:flex md:justify-end hidden black">
+      <section className="flex lg:gap-20 items-center">
+        <nav className="lg:flex lg:justify-end hidden black">
           <ul className="flex gap-10">
             <li className="font-medium lg:text-xl sm:text-sm md:text-md">
               <a
@@ -56,7 +59,7 @@ const Header = () => {
         <div className="mr-3 cursor-pointer hover:bg-white/10 p-3 hover:rounded-full hover:transition hover:duration-300 hover:ease-in">
           <Sun color="white" />
         </div>
-        <div className="cursor-pointer hover:bg-white/10 p-3 md:hidden hover:rounded-full hover:transition hover:duration-300 hover:ease-in">
+        <div className="cursor-pointer hover:bg-white/10 p-3 lg:hidden hover:rounded-full hover:transition hover:duration-300 hover:ease-in">
           <MenuBurger color="white" />
         </div>
       </section>

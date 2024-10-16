@@ -74,16 +74,16 @@ const Profile = () => {
             {word}
           </h3>
         </div>
-        <div className="my-4 flex justify-center gap-5">
+        <div className="my-4 flex justify-center gap-2 md:gap-5">
           <button
             data-aos="slide-left"
-            className="border-2 p-2.5 md:p-3 transition duration-300 ease-in-out hover:bg-[#A9D518] rounded-full text-white border-[#A9D518]"
+            className="border-2 p-3 md:p-3 transition duration-300 ease-in-out hover:bg-[#A9D518] rounded-full text-white border-[#A9D518]"
           >
             Download CV
           </button>
           <button
             data-aos="slide-right"
-            className="border-2 p-2.5 md:p-3 bg-[#A9D518] transition duration-300 ease-in-out hover:bg-[#7a9426] hover:border-[#7a9426] rounded-full text-white border-[#A9D518]"
+            className="border-2 p-3 md:p-3 bg-[#A9D518] transition duration-300 ease-in-out hover:bg-[#7a9426] hover:border-[#7a9426] rounded-full text-white border-[#A9D518]"
           >
             Contact Info
           </button>
