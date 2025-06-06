@@ -8,21 +8,20 @@ const About = () => {
   return (
     <section className=" my-16 w-full ">
       <SectionHeader heading="Get to know more" title="About me." />
-      <div className="flex flex-col gap-y-5 md:flex-row md:gap-8 items-center md:p-16 justify-center">
-        <div className="img w-[400px] md:w-[500px] ">
-          <Image
-            src={profpic}
-            className=" rounded-2xl"
-            alt="Clevertech"
-            data-aos="slide-up"
-          />
-        </div>
+      <div className="flex flex-col gap-y-5 md:flex-row md:gap-8 md:items-center md:p-16 md:justify-center">
+        <Image
+          src={profpic}
+          className=" rounded-2xl"
+          alt="Clevertech"
+          data-aos="slide-up"
+          width={500}
+        />
 
-        <div className="flex flex-col lg:flex-row">
-          <div className="text-white flex flex-col  gap-3">
-            <div className="flex flex-col md:flex gap-5 gap-y-5 p-2 ">
+        <div className="flex flex-col md:flex-row">
+          <div className="text-white flex flex-col  gap-1">
+            <div className="flex flex-col md:flex-row gap-5 gap-y-2 p-2 ">
               <div
-                className="border-2 flex flex-col gap justify-center items-center border-gray-600 shadow-lg p-[1.5rem] rounded-3xl font-semibold"
+                className="border-2 flex md:flex-1 flex-col gap justify-center md:justify-center md:items-center items-center border-gray-600 shadow-lg p-[1.5rem] rounded-3xl font-semibold"
                 data-aos="slide-right"
               >
                 <Image
@@ -57,7 +56,7 @@ const About = () => {
               </div>
 
               <div
-                className="border-2 flex flex-col justify-center items-center border-gray-600 shadow-lg p-[1.5rem] py-5 rounded-3xl font-semibold"
+                className="border-2 flex md:flex-1 flex-col border-gray-600 shadow-lg p-[1.5rem] py-5 rounded-3xl items-center font-semibold"
                 data-aos="slide-left"
               >
                 <Image
@@ -101,10 +100,7 @@ const About = () => {
                 but exceed user expectations. With a strong foundation in
                 full-stack development, I thrive in environments where
                 creativity and collaboration intersect to drive meaningful
-                impact. My goal is to contribute to a forward-thinking team
-                where my technical expertise and problem-solving skills can be
-                leveraged to build products that enhance everyday lives, foster
-                growth, and leave a lasting positive impression.
+                impact.
               </p>
             </div>
           </div>

@@ -15,17 +15,18 @@ const HomePage = () => {
       duration: 1000,
       easing: "linear",
       delay: 100,
+      offset: 50,
     });
   }, []);
   return (
-    <section className="flex flex-col items-center ">
+    <>
       <Header />
       <Profile />
       <About />
       <Experience />
       <Project />
       <Contact />
-    </section>
+    </>
   );
 };
 
