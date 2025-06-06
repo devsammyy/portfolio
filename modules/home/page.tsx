@@ -15,7 +15,7 @@ const HomePage = () => {
       duration: 1000,
       easing: "linear",
       delay: 100,
-      offset: 50,
+      offset: 20,
     });
   }, []);
   return (

@@ -16,7 +16,7 @@ const Contact: React.FC<IProps> = () => {
       <SectionHeader heading="Get in Touch" title="Contact Me" />
 
       <div className="flex justify-center gap-5 ">
-        <div className="border-2 flex flex-col md:flex gap-4  p-5 md:justify-center  md:items-center border-gray-600 shadow-lg rounded-2xl font-semibold">
+        <div className="border-2 flex flex-col md:flex gap-4  p-5 md:justify-start  md:items-start border-gray-600 shadow-lg rounded-2xl font-semibold">
           <div className="email flex items-center gap-2">
             <Image
               src={email}
